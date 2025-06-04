@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora - Enduring by Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Acme Gothic Extra Wide', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('your-hero-image.jpg') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.5rem;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px;
+    }
+    .product-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      height: auto;
+    }
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">AURORA</div>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#tech">Technology</a>
+      <a href="#story">Our Story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1>Enduring by Design</h1>
+      <p>Premium performance hats built for the journey</p>
+    </div>
+  </section>
+
+  <section id="shop" class="section">
+    <h2>Featured Hats</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="crest-hat.jpg" alt="The Crest">
+        <h3>The Crest</h3>
+        <p>Performance mesh, floats on water, water-resistant</p>
+      </div>
+      <!-- Add more product cards as needed -->
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Aurora</h2>
+    <p>Aurora is a Southern California-born brand that merges performance with timeless style. Our hats are engineered for those who balance career, fitness, and family — and never slow down.</p>
+  </section>
+
+  <section id="tech" class="section">
+    <h2>Technology & Materials</h2>
+    <p>We use high-performance, water-resistant, antimicrobial materials sourced and crafted in the USA. Designed to endure and elevate your everyday life.</p>
+  </section>
+
+  <section id="story" class="section">
+    <h2>Our Story</h2>
+    <p>Born from the chaos and beauty of raising five kids, Aurora represents purpose, movement, and meaning. The five-point star in our logo is a tribute to the five names that start with A — our guiding lights.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: hello@aurorahats.com</p>
+    <p>Instagram: @aurorahats</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aurora. All rights reserved.</p>
+  </footer>
+</body>
+</html>
